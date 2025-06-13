@@ -34,3 +34,4 @@ go.work.sum
 *.png
 *.jpg
 *.jpeg
+!6861.png
