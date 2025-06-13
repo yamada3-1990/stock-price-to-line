@@ -5,7 +5,7 @@ import datetime
 import matplotlib.pyplot as plt
 
 sys.stdout.reconfigure(encoding='utf-8')
-plt.rcParams['font.family'] = 'MS Gothic'  # ← ここを追加
+plt.rcParams['font.family'] = 'MS Gothic'
 
 # 銘柄
 ticker_symbol = "6861.T"

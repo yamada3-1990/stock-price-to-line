@@ -10,6 +10,5 @@ go run [fine name]
 ```
 別のターミナル開いて  
 ```
-cd C:/
-.\ngrok http [port]
+ngrok http [port]
 ```
