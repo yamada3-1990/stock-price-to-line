@@ -1,7 +1,7 @@
 ### APIテスト
 #### yfinance API
 ```
-go run test/yfinance_example.py
+python test/yfinance_example.py
 ```
 
 ### ローカル開発環境

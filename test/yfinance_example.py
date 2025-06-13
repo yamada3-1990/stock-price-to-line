@@ -53,7 +53,7 @@ try:
             volume=True,
             title=f"キーエンス {start_date}",
             style=style,
-            savefig='images/keyence_chart.png',
+            savefig=f'images/{ticker_symbol.strip(".T")}.png',
             ylabel='株価 (JPY)',
         )
     else:
