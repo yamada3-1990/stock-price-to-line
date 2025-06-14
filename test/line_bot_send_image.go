@@ -66,7 +66,8 @@ func main() {
 								messaging_api.ImageMessage{
 									// メッセージ返信
 									// Text: message.Text,
-									OriginalContentUrl: "images/6861.png",
+									OriginalContentUrl: "https://imgur.com/En55ou9.png",
+									PreviewImageUrl: "https://imgur.com/En55ou9.png",
 								},
 							},
 						},

@@ -24,4 +24,5 @@ https://~~~/callback に変更したら成功した；；
 画像のURLとしてHTTPSのURLを使用する必要がある
 ローカルにHTTPサーバーを立てて、画像を配信するように設定→ngrokを使って、そのローカルサーバーをHTTPSで公開→そのURLを指定 らしい  
 originalContentUrl と previewImageUrlどっちにも設定する必要があるって
+testではImgurを使用
 
