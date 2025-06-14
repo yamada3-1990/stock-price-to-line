@@ -66,8 +66,14 @@ func main() {
 								messaging_api.ImageMessage{
 									// メッセージ返信
 									// Text: message.Text,
+
+									// Imgurバージョン
 									OriginalContentUrl: "https://imgur.com/En55ou9.png",
 									PreviewImageUrl: "https://imgur.com/En55ou9.png",
+
+									// ngrokでローカルサーバ公開バージョン→無料だと実行できるセッション1つまでだった
+									// OriginalContentUrl: "https://f47d-61-44-177-79.ngrok-free.app.6861.png",
+									// PreviewImageUrl: "https://f47d-61-44-177-79.ngrok-free.app.6861.png",
 								},
 							},
 						},

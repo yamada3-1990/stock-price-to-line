@@ -12,3 +12,10 @@ go run [fine name]
 ```
 ngrok http [port]
 ```
+
+### 画像をなんとかする
+```
+cd images
+python -m http.server 6000
+ngrok http 6000
+```
