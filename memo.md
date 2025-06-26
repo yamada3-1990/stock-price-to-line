@@ -27,3 +27,9 @@ originalContentUrl と previewImageUrlどっちにも設定する必要がある
 testではImgurを使用
 ngrokでローカルサーバ公開バージョンやりたかったけど無料だと実行できるセッション1つまでだった
 
+
+envファイルからuser idを利用しようとすると
+go run test/line_bot_send_message.go
+2025/06/26 20:47:07 unexpected status code: 400, {"message":"The request body has 1 error(s)","details":[{"message":"May not be empty","property":"to"}]}
+と言われる
+→godotenvパッケージを利用で解決

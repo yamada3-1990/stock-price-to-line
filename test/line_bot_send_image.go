@@ -13,6 +13,7 @@
 // under the License.
 
 // https://github.com/line/line-bot-sdk-go/blob/master/examples/echo_bot/server.go お借りしました
+// 画像送信用テストコード
 
 package main
 
@@ -69,7 +70,7 @@ func main() {
 
 									// Imgurバージョン
 									OriginalContentUrl: "https://imgur.com/En55ou9.png",
-									PreviewImageUrl: "https://imgur.com/En55ou9.png",
+									PreviewImageUrl:    "https://imgur.com/En55ou9.png",
 
 									// ngrokでローカルサーバ公開バージョン→無料だと実行できるセッション1つまでだった
 									// OriginalContentUrl: "https://f47d-61-44-177-79.ngrok-free.app.6861.png",

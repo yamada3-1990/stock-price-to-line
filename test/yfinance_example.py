@@ -1,3 +1,5 @@
+# 株価取得テストコード
+
 import sys
 import yfinance as yf
 import mplfinance as mpf

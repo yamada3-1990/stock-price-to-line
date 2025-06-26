@@ -13,7 +13,7 @@
 // under the License.
 
 // https://github.com/line/line-bot-sdk-go/blob/master/examples/echo_bot/server.go お借りしました
-
+// オウム返しのLINE bot
 package main
 
 import (
