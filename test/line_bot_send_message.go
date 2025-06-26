@@ -41,7 +41,7 @@ func main() {
 	}
 
 	LINE_USER_ID := os.Getenv("LINE_USER_ID")
-	log.Printf("LINE_USER_ID: %s", LINE_USER_ID) // デバッグログを追加
+	// log.Printf("LINE_USER_ID: %s", LINE_USER_ID) // デバッグログ
 
 	pushMessage := &messaging_api.PushMessageRequest{
 		To: LINE_USER_ID,
