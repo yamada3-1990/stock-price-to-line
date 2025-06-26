@@ -1,3 +1,9 @@
+### やること
+- [ ] グラフをまとめて一つの画像にして送るフローを構築
+
+
+
+
 公開範囲を限定するには合言葉制/passwordにした方が良いの？かな？
 
 webhook url必要なのかあ ngrokでできるらしい
@@ -34,4 +40,7 @@ go run test/line_bot_send_message.go
 2025/06/26 20:47:07 unexpected status code: 400, {"message":"The request body has 1 error(s)","details":[{"message":"May not be empty","property":"to"}]}
 と言われる  
 →godotenvパッケージを利用で解決
-https://zenn.dev/a_ichi1/articles/c9f3870350c5e2
+https://zenn.dev/a_ichi1/articles/c9f3870350c5e2  
+
+
+
